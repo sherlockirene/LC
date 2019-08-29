@@ -53,7 +53,7 @@ public:
             int sum = v1 + v2 + carry;  
             cur_final->next = new ListNode(sum % 10 );
             cur_final = cur_final->next;
-            carry = sum / 10;
+            carry = sum > 9 ? 1 : 0;
 
         }
         
