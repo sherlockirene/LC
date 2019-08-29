@@ -4,7 +4,12 @@
         "iosfwd": "cpp",
         "xstring": "cpp",
         "xutility": "cpp",
-        "xiosbase": "cpp"
+        "xiosbase": "cpp",
+        "xlocale": "cpp",
+        "initializer_list": "cpp",
+        "type_traits": "cpp",
+        "ios": "cpp",
+        "system_error": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
