@@ -59,7 +59,7 @@ public:
 
         while (i < size && j < size)
         {
-            int pos = str.find(s.at(j));
+            int pos = str.find(s[j]);
             i += pos != string::npos ? pos + 1 : 0;
             str = s.substr(i, j++ - i + 1);
             final_length = max(final_length, (int)str.length());

@@ -9,7 +9,8 @@
         "initializer_list": "cpp",
         "type_traits": "cpp",
         "ios": "cpp",
-        "system_error": "cpp"
+        "system_error": "cpp",
+        "limits": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
