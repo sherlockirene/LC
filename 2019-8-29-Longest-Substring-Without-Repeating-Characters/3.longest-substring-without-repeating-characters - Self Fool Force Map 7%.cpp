@@ -62,12 +62,10 @@ public:
             {
                 if(m_target.find(s.at(j)) != m_target.end() ) break;
                 m_target[s.at(j)] = i;
-
             }
             final_length = max((int)m_target.size(), final_length) ;
         }
         return final_length;
-
     }
 };
 
